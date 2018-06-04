@@ -1,0 +1,72 @@
+Last login: Wed May 30 20:13:39 on ttys000
+➜  ~ mkdir lessons_learned
+➜  ~ ls
+Applications         Movies               derby.log
+Creative Cloud Files Music                isus
+Desktop              PdaNetUninstall.sh   laptop.log
+Documents            Pictures             lessons_learned
+Downloads            Public               mac
+Library              Sites
+➜  ~ cd lessons_learned
+➜  lessons_learned touch README.md
+➜  lessons_learned ls
+README.md
+➜  lessons_learned 
+➜  lessons_learned git status
+fatal: not a git repository (or any of the parent directories): .git
+➜  lessons_learned clear
+
+
+
+
+
+
+
+➜  lessons_learned echo "# lessons_learned" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:bcterry77/lessons_learned.git
+git push -u origin master
+Initialized empty Git repository in /Users/apple/lessons_learned/.git/
+[master (root-commit) eab4fb1] first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 232 bytes | 232.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To github.com:bcterry77/lessons_learned.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+➜  lessons_learned git:(master) git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+➜  lessons_learned git:(master) atom .
+➜  lessons_learned git:(master) echo HTML, CSS, Javascript, Git >> README.md
+➜  lessons_learned git:(master) ✗ clear
+
+➜  lessons_learned git:(master) ✗ echo Things I have learned at bloc >> README.md
+➜  lessons_learned git:(master) ✗ echo 1. HTML >> README.md
+➜  lessons_learned git:(master) ✗ echo 2. CSS >> README.md
+➜  lessons_learned git:(master) ✗ echo 3. Javascript >> README.md
+➜  lessons_learned git:(master) ✗ echo 4. Git >> README.md
+➜  lessons_learned git:(master) ✗ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
